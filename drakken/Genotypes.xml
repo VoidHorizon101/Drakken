@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<genotypes>
+
+<genotype Name="Drakken" MutationPoints="16" StatPoints="44" AllowedMutationCategories="*" RandomWeight="60" DisplayName="Drakken" Subtypes="Broods" Class="" Code="a" Tile="creatures/coq_drakken.png" BodyObject="Humanoid" BaseHPGain="4-16" BaseSPGain="50" BaseMPGain="3" IsTrueKin="false">
+    <stat Name="Strength" Minimum="10" Maximum="26" />
+    <stat Name="Agility" Minimum="10" Maximum="26" />
+    <stat Name="Toughness" Minimum="10" Maximum="26" />
+    <stat Name="Intelligence" Minimum="10" Maximum="26" />
+    <stat Name="Willpower" Minimum="10" Maximum="26" />
+    <stat Name="Ego" Minimum="10" Maximum="26" />
+    <skills>
+      <skill Name="Cooking and Gathering_Butchery" />
+      <skill Name="Self-discipline_Lionheart" />
+      <skill Name="Survival_Camp" />
+    </skills>
+    <reputations>
+      <reputation With="Unshelled Reptiles" Value="600" />
+    </reputations>
+    <chargeninfo>   
+   &amp;c&#249;&amp;y High starting attributes
+   &amp;c&#249;&amp;y More mutaion points
+   &amp;c&#249;&amp;y &amp;C20&amp;y less skill point growth
+   &amp;c&#249;&amp;y +600 reputation with &amp;CUnshelled Reptiles
+   </chargeninfo>
+  </genotype>
+
+  </genotypes>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+
+<class ID="Broods" ChargenTitle="Choose Brood" SingularTitle="brood">
+
+    <subtype Name="Oldblood" Code="a" Gear="" Tile="creatures/coq_drakken.png" DetailColor="m">
+      <stat Name="Toughness" Bonus="4" />
+      <skills>
+        <skill Name="Endurance_Weathered" />
+        <skill Name="Heavy Weapon_Tank" />
+        <skill Name="Persuasion_Intimidate" />
+      </skills>
+    </subtype>
+
+    <subtype Name="Youngblood" Code="b" Gear="" Tile="creatures/coq_drakken.png" DetailColor="Y">
+      <stat Name="Agility" Bonus="4" />
+      <skills>
+        <skill Name="ShortBlades" />
+        <skill Name="Acrobatics_Spry" />
+        <skill Name="Bow and Rifle" />
+      </skills>
+    </subtype>
+
+  </class>
+
+</subtypes>

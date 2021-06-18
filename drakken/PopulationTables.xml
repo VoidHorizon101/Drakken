@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+  <population Name="StartingGear_Oldblood">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+      <object Blueprint="FullWaterskin" Number="2" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+      <object Blueprint="Steel Hand Axe" Number="1" />
+      <object Blueprint="Leather Cap" Number="1" />
+      <object Blueprint="Leather Armor" Number="1" />
+      <object Blueprint="Leather Boots" Number="1" />
+      <object Blueprint="SalveTonic" Number="1d3" />
+       <object Blueprint="Copper Nugget" Number="12" />
+    </group>
+  </population>
+
+   <population Name="StartingGear_Youngblood">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+    </group>
+  </population>
+
+</populations>

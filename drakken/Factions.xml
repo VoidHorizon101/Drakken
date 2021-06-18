@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<factions>
+  <faction Name="Drakken" Visible="True" InitialPlayerReputation="-100">
+    <feeling About="*" Value="-100" />
+	<partreputation About="WillForce" Value="50" />
+	<partreputation About="Domination" Value="50" />
+	<waterritual Skill="Endurance_Weathered " Gifts="1" />
+	<interests BuyDescription=" want some shynies i've found ">
+      <interest Tags="tech" WillBuy="false" WillSell="false" />
+	  <interest Tags="historic" WillBuy="true" WillSell="true" />
+	  <interest Tags="ruins" />
+    </interests>
+  </faction>
+</factions>
